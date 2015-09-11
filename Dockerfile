@@ -2,8 +2,7 @@
 #
 # VERSION 0.0.1
 
-FROM node
-MAINTAINER Spongebob
+FROM node:0.10-onbuild
 
 ADD ./ /src
 
